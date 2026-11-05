@@ -1,0 +1,11 @@
+{
+  "project": "lab-review-ai",
+  "transport": "real HTTP / uvicorn",
+  "ocr": "Tesseract real PNG",
+  "measurements": 3,
+  "new_approved_records": 1,
+  "simulated_reviewer_corrections": [
+    "WBC unit"
+  ],
+  "status": "passed"
+}

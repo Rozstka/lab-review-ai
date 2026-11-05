@@ -1,0 +1,5 @@
+SYNTHETIC LAB REPORT - NOT A REAL PATIENT
+Patient: SYN-001
+Hemoglobin: 145 g/L [120-170]
+Glucose: 5.2 mmol/L [3.9-6.1]
+WBC: 6.0 10^9/L [4.0-10.0]

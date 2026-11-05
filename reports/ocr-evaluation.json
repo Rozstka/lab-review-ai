@@ -1,0 +1,44 @@
+{
+  "scope": "4 clean synthetic printed scans; no clinical generalization",
+  "expected_fields": 12,
+  "precision": 0.6666666666666666,
+  "recall": 0.6666666666666666,
+  "cases": [
+    {
+      "case": 0,
+      "expected_fields": 3,
+      "correct_fields": 2,
+      "validation_issues": [
+        "Unexpected unit for WBC"
+      ],
+      "unparsed": []
+    },
+    {
+      "case": 1,
+      "expected_fields": 3,
+      "correct_fields": 2,
+      "validation_issues": [
+        "Unexpected unit for WBC"
+      ],
+      "unparsed": []
+    },
+    {
+      "case": 2,
+      "expected_fields": 3,
+      "correct_fields": 2,
+      "validation_issues": [
+        "Unexpected unit for WBC"
+      ],
+      "unparsed": []
+    },
+    {
+      "case": 3,
+      "expected_fields": 3,
+      "correct_fields": 2,
+      "validation_issues": [
+        "Unexpected unit for WBC"
+      ],
+      "unparsed": []
+    }
+  ]
+}

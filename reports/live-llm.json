@@ -1,0 +1,45 @@
+{
+  "project": "lab-review-ai",
+  "model": "qwen2.5:3b",
+  "status_code": 201,
+  "result": {
+    "id": "849e8f50-727d-4d9d-9465-a8980e9d0ed6",
+    "patient_id": "SYN-001",
+    "status": "pending_review",
+    "revision": 1,
+    "text": "SYNTHETIC LAB REPORT - NOT A REAL PATIENT\nPatient: SYN-001\nHemoglobin: 145 g/L [120-170]\nGlucose: 5.2 mmol/L [3.9-6.1]\nWBC: 6.0 10^9/L [4.0-10.0]\n",
+    "measurements": [
+      {
+        "name": "Hemoglobin",
+        "value": 145.0,
+        "unit": "g/L",
+        "reference_low": 120.0,
+        "reference_high": 170.0,
+        "source_line": "Hemoglobin: 145 g/L [120-170]"
+      },
+      {
+        "name": "Glucose",
+        "value": 5.2,
+        "unit": "mmol/L",
+        "reference_low": 3.9,
+        "reference_high": 6.1,
+        "source_line": "Glucose: 5.2 mmol/L [3.9-6.1]"
+      },
+      {
+        "name": "WBC",
+        "value": 6.0,
+        "unit": "10^9/L",
+        "reference_low": 4.0,
+        "reference_high": 10.0,
+        "source_line": "WBC: 6.0 10^9/L [4.0-10.0]"
+      }
+    ],
+    "issues": [],
+    "unparsed": [],
+    "source_sha256": "43c1ca17f2c035f1f5f74d8ab2403d6124a77f5a7bc19faeb3e5e03031dcbb9f",
+    "mode": "ollama",
+    "extraction_status": "ok",
+    "created_at": "2026-11-05T17:57:06.747847+00:00"
+  },
+  "seconds": 14.68
+}

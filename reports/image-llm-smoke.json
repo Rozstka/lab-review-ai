@@ -1,0 +1,27 @@
+{
+  "pipeline": "image \u2192 Tesseract \u2192 qwen2.5:3b \u2192 validation",
+  "status_code": 201,
+  "seconds": 14.79,
+  "result": {
+    "id": "01cdda9e-0df2-4855-9c21-ff803b0f835f",
+    "patient_id": "SYN-001",
+    "status": "pending_review",
+    "revision": 1,
+    "text": "SYNTHETIC LAB REPORT - NOT A REAL PATIENT\nPatient: SYN-001\n\nHemoglobin: 145 g/L [120-170]\n\nGlucose: 5.2 mmol/L [3.9-6.1]\n\nWBC: 6.0 1049/L [4.0-10.0]",
+    "measurements": [],
+    "issues": [
+      "LLM extraction failed: LLM extraction lacks exact source support"
+    ],
+    "unparsed": [
+      "SYNTHETIC LAB REPORT - NOT A REAL PATIENT",
+      "Patient: SYN-001",
+      "Hemoglobin: 145 g/L [120-170]",
+      "Glucose: 5.2 mmol/L [3.9-6.1]",
+      "WBC: 6.0 1049/L [4.0-10.0]"
+    ],
+    "source_sha256": "9ef935f70a8d94b58f1ee971387466f276d713b44050f6049e41a76d8ded17dc",
+    "mode": "ollama",
+    "extraction_status": "needs_manual_entry",
+    "created_at": "2026-11-05T17:52:15.061728+00:00"
+  }
+}
